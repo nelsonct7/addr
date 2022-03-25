@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+}
+.backg{
+    background-color: rgb(54, 175, 223);
+    color: blue;
+}
+.downbtn{
+    border: none;
+    background-color: blue;
+    color: white;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.ico{
+    width: 30px;
+    height: 30px;
+}
+@media only screen and (max-width: 600px) {
+    .cmpimg{
+      display: none;
+    }
+  }
+  .cmpimg{
+    position: relative;
+    z-index: (0);
+  }
+  .mobimg{
+    position: relative;
+    z-index: (1);  
+  }
+
+
+  .wht{
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      background-color: rgb(27, 117, 219);
+      color: white;
+  }
+  .bg-pink{
+      background-color: rgb(219, 10, 184);
+  }
+  .bg-lighten{
+      background-color: rgb(233, 160, 227);
+  }
+  .rd{
+      font-size: medium;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+  }
+  .btp{
+      width: 200px;
+      height: 50px;
+     
+  }
+
+
+  // X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { ... }
